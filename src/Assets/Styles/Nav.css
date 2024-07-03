@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 48px;
+    background-color: #fff;
+}
+.horiz {
+    list-style-type: none; 
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.header li{
+    margin-right: 20px; /* Add some space between the items */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    font-size: 14px;
+}
+.horiz a {
+    font-family: arial, sans-serif;
+    color: #202124;
+    text-decoration: none;
+    cursor: pointer;
+}
+.horiz a:hover{
+    text-decoration: underline;
+}
+
+.dot {
+    display: inline-block;
+    position: relative;
+}
+
+.dot img {
+    width: 28px;
+    height: 28px;
+}
+
+.dot .tooltiptext {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    visibility: hidden;
+    width: 80px;
+    height: 12px;
+    background-color: #696767;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 0;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 40%;
+    margin-left: -41.9px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.dot:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.gb_f img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.dot :hover{
+    border-radius: 5rem;
+    background-color: rgb(237, 235, 235);
+}
+.gb_f :hover{
+    border-radius: 5rem;
+    background-color: rgb(237, 235, 235);
+}
+
+.svg svg{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.svg img{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
